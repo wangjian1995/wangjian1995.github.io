@@ -82,7 +82,7 @@
         var ul = document.getElementById("resort");
         var itemHtml = "";
         for(var i=0;i<data.length;i++){
-            itemHtml += "<li>"+data[i][0]+"<b>"+data[i][1]+"</b></li>";
+            itemHtml += "<li>第"+ i +"名："+data[i][0]+"<b>"+data[i][1]+"</b></li>";
         };
         ul.innerHTML = itemHtml;
 
